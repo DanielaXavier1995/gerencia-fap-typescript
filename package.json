@@ -2,11 +2,14 @@
   "name": "gerencia-fap-typescript",
   "version": "1.0.0",
   "description": "## Gerenciador FAP Tudo bem com vocês? Acredito que agora ficará ainda melhor! Aqui trouxemos uma aplicação que irá facilitar e muito sua vida como estudante FAP.  Sabemos que nossos dias são uma eterna correria, e para que você não se \"enrrole\" no meio dessa montanha de atividades, desenvolvemos o GerenciaFAP, que será responsável por organizar todas as suas atividades sem que você precise se preocupar com tal. Não é incrível? 🤩",
-  "main": "index.js",
+  "main": "main.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node src/main.ts"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
 }
